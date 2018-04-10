@@ -16,7 +16,7 @@ HowTo:
 2. close vs2017
 3. open node.js command promt
 4. go to the repo directory
-5. `rmdir /Q /S node_modules (repeat until no messages comming up)
+5. `rmdir /Q /S node_modules` (repeat until no messages comming up)
 6. `npm install`
 7. `npm run build:vd`
 8. open vs2017
