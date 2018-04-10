@@ -4,6 +4,12 @@ VS2017 .NET Core with Angular Templated and angular-mdc/web
 This repository is related to the following stackoverflow question:
 https://stackoverflow.com/questions/49720843/how-to-implement-angular-mdc-web-in-net-core-angular-vs2017-template
 
+Pre requirements:
+* vs2017 community edition 15.6.5
+* npm 5.8.0
+* vs2017 menu Tools\Options...\Projects and Solutions\Web Package Management
+  * set `$(PATH)`entry to the top of the list (use the arrows on the top right corner)
+
 HowTo:
 
 1. Clone this repo with vs2017
