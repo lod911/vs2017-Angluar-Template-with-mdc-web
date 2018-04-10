@@ -1,6 +1,8 @@
 import 'reflect-metadata';
 import 'zone.js';
-import 'bootstrap';
+//import 'bootstrap';   // deactivate this line
+import './styles.scss'; // add this line
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.browser.module';

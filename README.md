@@ -7,15 +7,18 @@ https://stackoverflow.com/questions/49720843/how-to-implement-angular-mdc-web-in
 HowTo:
 
 1. Clone this repo with vs2017
-2. wait until all packackes (incl. npm) are restored
+2. close vs2017
 3. open node.js command promt
 4. go to the repo directory
-5. `npm install`
-6. `npm run build:cl`
-7. hit F5 in vs2017
+5. `rmdir /Q /S node_modules (repeat until no messages comming up)
+6. `npm install`
+7. `npm run build:vd`
+8. open vs2017
+9. wait until all package resores are finished
+7. hit F5 vs2017 to start the project
 
-If its not working try delete the node_modules folder and run `npm install` again
+If its not working try to start again with step 4.
 
-### This repo is for reproducing something strange with mdc-buttons -> not working correctly
+### This repo is for reproducing something strange with mdc-buttons -> so, don't expect everything works correctly
 
-## There is only one button with mdc. The rest you have to do it by yourself.
+## There is only one button with angular-mdc/web. The rest of the project you have to do it by yourself :)

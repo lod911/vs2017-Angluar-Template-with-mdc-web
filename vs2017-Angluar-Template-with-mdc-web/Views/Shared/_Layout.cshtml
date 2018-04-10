@@ -1,12 +1,21 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html class="mdc-typography" lang="de">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - vs2017_Angluar_Template_with_mdc_web</title>
+    @*<meta name="viewport" content="initial-scale=1, shrink-to-fit=no, width=device-width">*@
+    <title>@ViewData["Title"] - WebApplication2</title>
     <base href="~/" />
 
-    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <!-- add this 2 lines -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- deactivated this line -->
+    @*<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />*@
+
+    <!-- add this line -->
+    <link rel="stylesheet" href="~/dist/bundle.css" asp-append-version="true" />
 </head>
 <body>
     @RenderBody()
