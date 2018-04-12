@@ -3,6 +3,7 @@ VS2017 .NET Core with Angular Templated and angular-mdc/web
 
 This repository is related to the following stackoverflow question:
 https://stackoverflow.com/questions/49720843/how-to-implement-angular-mdc-web-in-net-core-angular-vs2017-template
+and it should work now :)
 
 Pre requirements:
 * vs2017 community edition 15.6.5
@@ -24,7 +25,5 @@ HowTo:
 7. hit F5 vs2017 to start the project
 
 If its not working try to start again with step 4.
-
-### This repo is for reproducing something strange with mdc-buttons -> so, don't expect everything works correctly
 
 ## There is only one button with angular-mdc/web. The rest of the project you have to do it by yourself :)
